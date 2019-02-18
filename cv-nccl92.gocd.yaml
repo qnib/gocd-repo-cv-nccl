@@ -4,12 +4,12 @@ environments:
     environment_variables:
       DOCKER_TAG: latest
       DOCKER_NO_CACHE: false
-      DOCKER_REG: docker.io
-      DOCKER_REGISTRY: docker.io
-      FROM_IMG_REGISTRY: docker.io
-      UCP_USER: test123
       DOCKER_BUILD_LOCAL: true
-      DOCKER_REGISTRY_INSECURE: true
+      #DOCKER_REG: docker.io
+      #DOCKER_REGISTRY: docker.io
+      #FROM_IMG_REGISTRY: docker.io
+      #UCP_USER: test123
+      #DOCKER_REGISTRY_INSECURE: true
     pipelines:
       - cv-cuda92
       - cv-cudnn92
